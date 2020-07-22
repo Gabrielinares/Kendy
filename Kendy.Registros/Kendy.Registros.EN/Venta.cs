@@ -23,7 +23,10 @@ namespace Kendy.Registros.EN
         public Venta (int pId, DateTime pFecha, float pTotal, int pEmpleadoId, int pCLienteId)
         {
             Id = pId;
-
+            Fecha = pFecha;
+            Total = pTotal;
+            EmpleadoId = pEmpleadoId;
+            ClienteId = pCLienteId;
         }
 
     }
